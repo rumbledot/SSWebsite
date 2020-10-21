@@ -1,6 +1,8 @@
-<div class="row">
-    <div class="col-sm-12">
-		$Breadcrumbs
-		<h1>$Title</h1>
+<div class="container">
+	<div class="row mb-2">
+		<div class="col-sm-12">
+			$Breadcrumbs
+			<h4>$Title</h4>
+		</div>
 	</div>
 </div>

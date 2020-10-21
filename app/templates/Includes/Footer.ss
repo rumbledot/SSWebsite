@@ -1,7 +1,8 @@
 <div class="container">
 	<div class="row">
 		<div class="col-10">
-			&copy; 2020 RumbleDot - Wellington,NZ
+			&copy; 2020 <a href="/admin/">
+				RumbleDot</a> - Wellington,NZ
 		</div>
 		<div class="col-2">
 			<div class="button-group">
@@ -11,8 +12,6 @@
 					<i class="fa fa-github-square"></i></a></li>
 				<a class="btn btn-sm btn-light" href="https://twitter.com/RumbleDot">
 					<i class="fa fa-twitter"></i></a></li>
-				<a class="btn btn-sm btn-light" href="/admin/">
-					<i class="fa fa-sign-in"></i></a>
 			</div>
 		</div>
 	</div>

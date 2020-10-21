@@ -71,6 +71,55 @@ changes in templates/themes use project.url/?flush
     Requirements::javascript('javascript/scripts.js');
 ```
 
+### relational
+
+- one to one
+
+in Thing class
+```
+private static has_one = [
+    'Things' => Things::class,
+];
+```
+
+- one to many
+
+in Things class
+```
+private static $has_many = [
+    'Thing' => Thing::class,
+];
+
+private static $owns = [
+    'Thing'
+];
+```
+
+### notes to self
+
+- using DropDownField
+
+declare the property as usual
+
+```
+private static $db = [
+    'Colour' => 'Varchar(10)',
+];
+```
+set in  '$fields = FieldList::create();'
+
+```
+DropdownField::create( 'Colour', 'Colour',
+    array(
+        'value expected in db' => 'Displayed in dropdown',
+        'white' => 'White',
+        'green' => 'Green',
+        'yellow' => 'Yellow',
+        'pink' => 'Pink',
+        'blue' => 'Blue',
+    )),
+```
+
 Base project folder for a SilverStripe ([http://silverstripe.org](http://silverstripe.org)) installation. Required modules are installed via [http://github.com/silverstripe/recipe-cms](http://github.com/silverstripe/recipe-cms). For information on how to change the dependencies in a recipe, please have a look at [https://github.com/silverstripe/recipe-plugin](https://github.com/silverstripe/recipe-plugin). In addition, installer includes [theme/simple](https://github.com/silverstripe-themes/silverstripe-simple) as a default theme.
 
 ## Installation ##
