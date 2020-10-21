@@ -28,9 +28,12 @@ namespace {
         {
             parent::init();
             Requirements::css('css/bootstrap.min.css');
-            Requirements::css('css/style.css');
+            // Requirements::css('css/style.css');
+            Requirements::css('css/website.css');
             Requirements::javascript('javascript/common/modernizr.js');
+            Requirements::javascript('javascript/common/jquery-3.5.1.js');
             Requirements::javascript('javascript/common/jquery-1.11.1.min.js');
+            Requirements::javascript('javascript/common/jquery.min.js');
             Requirements::javascript('javascript/common/bootstrap.min.js');
             Requirements::javascript('javascript/common/bootstrap-datepicker.js');
             Requirements::javascript('javascript/common/chosen.min.js');

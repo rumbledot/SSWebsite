@@ -1,9 +1,10 @@
 <div id="nav-section">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <a href="$AbsoluteBaseURL" class="nav-logo"><img src="images/logo.png" alt="One Ring Rentals" /></a>
-                                            
+        <div class="row h-10">
+            <div class="col-4">
+                <a href="$AbsoluteBaseURL" class="nav-logo"><img src="images/logo.png" alt="PegBoards" /></a>
+            </div>
+            <div class="col-8">
                 <!-- BEGIN MAIN MENU -->
                 <nav class="navbar">
                 <button id="nav-mobile-btn"><i class="fa fa-bars"></i></button>
@@ -14,7 +15,7 @@
                 </ul>
                 </nav>
                 <!-- END MAIN MENU -->
-                
+
             </div>
         </div>
     </div>

@@ -6,28 +6,26 @@
 <head>
 	<% base_tag %>
 	$MetaTags
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<!-- IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> 
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
 <body>
-	<div id="wrapper">
 
-		<header id="header">
-			<% include TopBar %>
-			<% include MainNav %>
-		</header>
+	<header>
+		<% include Nav %>
+	</header>
 
+	<div id="container">
 		$Layout
-
-		<footer id="footer">
-			<% include Footer %>
-			<% include CopyRight %>			
-		</footer>
-	
 	</div>
+
+	<footer class="footer">
+		<% include Footer %>
+	</footer>
+
 </body>
 </html>

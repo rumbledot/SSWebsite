@@ -1,10 +1,10 @@
 <?php
 
-namespace SilverStripe\Lessons;
+namespace Website\PegBoard;
 
-use Page;    
+use Page;
 
-class HomePage extends Page 
+class HomePage extends Page
 {
 
 }

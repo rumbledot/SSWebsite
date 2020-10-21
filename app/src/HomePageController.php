@@ -1,10 +1,10 @@
 <?php
 
-namespace SilverStripe\Lessons;
+namespace Website\PegBoard;
 
-use PageController;    
+use PageController;
 
-class HomePageController extends PageController 
+class HomePageController extends PageController
 {
 
 }
