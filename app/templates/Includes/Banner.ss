@@ -1,8 +1,8 @@
-<div class="container">
-	<div class="row mb-2">
-		<div class="col-sm-12">
-			$Breadcrumbs
-			<h4>$Title</h4>
-		</div>
+<div class="row mb-2">
+	<div class="col-2">
+		<h5>$Title</h5>
+	</div>
+	<div class="col-auto">
+		<small>| $Breadcrumbs</small>
 	</div>
 </div>

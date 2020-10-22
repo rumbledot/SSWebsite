@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\PegBoard;
+namespace Website;
 
 use PageController;
 

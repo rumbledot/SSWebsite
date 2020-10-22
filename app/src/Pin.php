@@ -47,7 +47,7 @@ class Pin extends DataObject
             $uploader = UploadField::create('Pic')
         );
 
-        $uploader->setFolderName('pins-photos');
+        $uploader->setFolderName('pin-photos');
         $uploader->getValidator()->setAllowedExtensions(['png','gif','jpeg','jpg']);
 
         return $fields;

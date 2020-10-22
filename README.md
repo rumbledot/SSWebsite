@@ -77,6 +77,12 @@ changes in templates/themes use project.url/?flush
 
 in Thing class
 ```
+// recommended table name declaration,
+// SS generate a long table name based on class and namespace
+// this will be incompatible with future SS version
+
+private static $table_name = 'Things';
+
 private static has_one = [
     'Things' => Things::class,
 ];
@@ -95,7 +101,46 @@ private static $owns = [
 ];
 ```
 
+### templates
+
+```
+<?php
+
+namespace Website\PegBoard;
+
+use Page;
+
+class PortfolioPage extends Page
+{
+
+}
+```
+
+```
+<?php
+
+namespace Website\PegBoard;
+
+use PageController;
+
+class PortfolioPageController extends PageController
+{
+
+}
+```
+
 ### notes to self
+
+- naming and project structure convention
+
+```
+app/src/
+PageNamePage.php
+PageNamePageController.php
+
+app/src/templates/namespace/Layout
+PageNamePage.ss
+```
 
 - using DropDownField
 

@@ -39,7 +39,7 @@ namespace {
             Requirements::javascript('javascript/common/chosen.min.js');
             Requirements::javascript('javascript/common/bootstrap-checkbox.js');
             Requirements::javascript('javascript/common/nice-scroll.js');
-            Requirements::javascript('javascript/common/jquery-browser.js');
+            // Requirements::javascript('javascript/common/jquery-browser.js');
             Requirements::javascript('javascript/scripts.js');
         }
     }
