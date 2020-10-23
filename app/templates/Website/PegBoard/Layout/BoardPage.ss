@@ -1,5 +1,7 @@
 	<div class="container">
-		<% include Banner %>
+        <div class="row justify-content-center mb-3">
+            $Content
+        </div>
 		<div class="row">
 			<% loop $Pins %>
 			<div class="col-auto col-lg-3 col-md-6 col-sm-12">

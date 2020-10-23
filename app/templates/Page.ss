@@ -18,11 +18,7 @@
 	<header>
 		<% include Nav %>
 	</header>
-
-	<div id="container">
 		$Layout
-	</div>
-
 	<footer class="footer">
 		<% include Footer %>
 	</footer>

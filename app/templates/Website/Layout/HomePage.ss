@@ -1,17 +1,12 @@
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-12">
-            <img class="image-logo" src="images/logo.png" alt="PegBoard">
+    <div class="row justify-content-center mb-3">
+        <div class="col-auto col-lg-6 col-md-6 col-sm-12">
+            <img class="lg-image" src="/images/logo.png" alt="">
         </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-auto">
-            <p>this app could be many things..</p>
-            <ul>
-                <li>notes to myself</li>
-                <li>a blog of a non-blogger</li>
-                <li>a step by step instructions</li>
-            </ul>
+        <div class="col-auto col-lg-6 col-md-6 col-sm-12">
+            $Content
         </div>
     </div>
 </div>
