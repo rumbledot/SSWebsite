@@ -8,7 +8,11 @@
         <ul class="navbar-nav mr-auto">
         <% loop $Menu(1) %>
             <li class="nav-item">
-                <a class="nav-link" href="$Link" title="Go to the $Title page">$MenuTitle</a>
+                <a class="nav-link" href="$Link" title="Go to the $Title page">
+                    <div id="nav-$MenuTitle" data-toggle="tooltip" data-placement="bottom" title="Jump to $MenuTitle">
+                    <p class="nav-text">$MenuTitle</p>
+                    </div>
+                </a>
             </li>
         <% end_loop %>
         </ul>

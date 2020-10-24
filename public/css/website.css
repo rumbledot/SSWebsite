@@ -1,4 +1,8 @@
 @import url('./font-awesome.min.css');@import url('./font.css');@import url('./owl.transitions.css');
+@font-face {
+  font-family: pixelFont;
+  src: url(../fonts/Minecraft.ttf);
+}
 
 body {
   font-family:'Courier New', Courier, monospace;
@@ -16,6 +20,126 @@ body {
     font-weight:bolder;
 }
 
+/* Pixelated font */
+.pixelFont {
+  font-family: pixelFont;
+}
+
+/* Nav menu icon only visible on > 768px*/
+@media (min-width: 768px) {
+  #nav-Home {
+    position: absolute;
+      /* display: inline-block; */
+      background-image: url('/images/Home.png') !important;
+      background-size: 64px 64px;
+      height: 64px;
+      width: 64px;
+      margin-top:10px;
+  }
+
+  #nav-Home:hover {
+    position: absolute;
+      /* display: inline-block; */
+      background-image: url('/images/Home-clicked.png') !important;
+      background-size: 64px 64px;
+      height: 64px;
+      width: 64px;
+      margin-top:10px;
+  }
+
+  #nav-Board {
+    position: absolute;
+      /* display: inline-block; */
+      background-image: url('/images/Board.png') !important;
+      background-size: 64px 64px;
+      height: 64px;
+      width: 64px;
+      margin-top:10px;
+      margin-left:64px;
+  }
+
+  #nav-Board:hover {
+    position: absolute;
+      /* display: inline-block; */
+      background-image: url('/images/Board-clicked.png') !important;
+      background-size: 64px 64px;
+      height: 64px;
+      width: 64px;
+      margin-top:10px;
+      margin-left:64px;
+  }
+
+  #nav-Arcade {
+    position: absolute;
+      /* display: inline-block; */
+      background-image: url('/images/Arcade.png') !important;
+      background-size: 64px 64px;
+      height: 64px;
+      width: 64px;
+      margin-top:10px;
+      margin-left:128px;
+  }
+
+  #nav-Arcade:hover {
+    position: absolute;
+      /* display: inline-block; */
+      background-image: url('/images/Arcade-clicked.png') !important;
+      background-size: 64px 64px;
+      height: 64px;
+      width: 64px;
+      margin-top:10px;
+      margin-left:128px;
+  }
+
+  #nav-Gallery {
+    position: absolute;
+      /* display: inline-block; */
+      background-image: url('/images/Gallery.png') !important;
+      background-size: 64px 64px;
+      height: 64px;
+      width: 64px;
+      margin-top:10px;
+      margin-left:192px;
+  }
+
+  #nav-Gallery:hover {
+    position: absolute;
+      /* display: inline-block; */
+      background-image: url('/images/Gallery-clicked.png') !important;
+      background-size: 64px 64px;
+      height: 64px;
+      width: 64px;
+      margin-top:10px;
+      margin-left:192px;
+  }
+
+  #nav-About {
+    position: absolute;
+      /* display: inline-block; */
+      background-image: url('/images/About.png') !important;
+      background-size: 64px 64px;
+      height: 64px;
+      width: 64px;
+      margin-top:10px;
+      margin-left:256px;
+  }
+
+  #nav-About:hover {
+    position: absolute;
+      /* display: inline-block; */
+      background-image: url('/images/About-clicked.png') !important;
+      background-size: 64px 64px;
+      height: 64px;
+      width: 64px;
+      margin-top:10px;
+      margin-left:256px;
+  }
+  .nav-text {
+    visibility: hidden;
+  }
+}
+
+/* background colours */
 .bg-white {
     background-color: rgb(246,246,246);
     width:90vw;
@@ -41,6 +165,7 @@ body {
     width: 90vw;
 }
 
+/* Stiky's colours */
 .peg-white {
     background-image: url('/images/border.png') !important;
     background-size: 250px 200px;
@@ -220,6 +345,7 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;

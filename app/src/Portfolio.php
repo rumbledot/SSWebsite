@@ -24,6 +24,7 @@ class Portfolio extends DataObject
     private static $has_one = [
         'PortfolioPic' => Image::class,
         'Category' => Category::class,
+        'GalleryPage' => GalleryPage::class,
     ];
 
     private static $extensions = [

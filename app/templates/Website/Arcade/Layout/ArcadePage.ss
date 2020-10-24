@@ -1,27 +1,15 @@
-<div class="container">
+<div class="container" style="margin-top:10vh;">
     <div class="row justify-content-center mb-3">
         $Content
     </div>
     <div class="row">
         <% loop $Games %>
-        <div class="col-auto col-lg-3 col-md-6 col-sm-12">
-            <div class="row justify-content-center">
-                <div class="col-12 mb-1">
-                    <div class="peg-white">
-                        <div class="center">
-                            <div class="row justify-content-md-center">
-                                <div class="col-md-auto">
-                                    <a href="$Location" target="_blank" style="font-weight:bolder;">$Title</a>
-                                </div>
-                            </div>
-                            <div class="row justify-content-md-center">
-                                <div class="col-md-auto">
-                                    <p>$Description</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="card bg-dark" style="width: 18rem;">
+            <img class="card-img-top" src="$Thumbnail.URL" alt="$Title">
+            <div class="card-body bg-dark">
+                <h5 class="card-title text-light pixelFont">$Title</h5>
+                <p class="card-text text-light pixelFont">$Description</p>
+                <a href="$Location" target="_blank" class="btn btn-warning">Play!</a>
             </div>
         </div>
         <% end_loop %>

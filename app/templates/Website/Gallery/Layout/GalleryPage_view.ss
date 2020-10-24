@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" style="margin-top:10vh;">
     <% include Banner %>
     <% with $Category %>
     <div class="row">
@@ -14,32 +14,28 @@
         <div id="portfolioCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <% loop $Portfolios %>
-                    <% if First %>
-                    <li data-target="#portfolioCarousel" data-slide-to="$Pos" class="active"></li>
-                    <% else %>
-                    <li data-target="#portfolioCarousel" data-slide-to="$Pos"></li>
-                    <% end_if %>
+                    <li data-target="#portfolioCarousel" data-slide-to="$Pos(0)"
+                        <% if First %> class="active"<% end_if %>>
+                    </li>
                 <% end_loop %>
             </ol>
-            <div class="carousel-inner">
+            <div class="carousel-inner" role="listbox">
                 <% loop $Portfolios %>
-                    <% if First %>
-                    <div class="carousel-item active">
-                        <img src="$PortfolioPic.URL" style="width:90vw; height:auto;" alt="$Title">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>$Title</h5>
-                            <p>$Description</p>
+
+                    <div class="carousel-item <% if First %>active<% end_if %>">
+                        <% if Link && Up.LinkSlides %><a href="$Link"><% end_if %>
+                        <img src="$PortfolioPic.URL" style="width:100vw; height:auto;" alt="$Title">
+                        <% if Link && Up.LinkSlides %></a><% end_if %>
+                        <div class="carousel-caption">
+                            <% if Title %>
+                                <h4>$Title</h4>
+                            <% end_if %>
+                            <% if Description %>
+                                <small>$Description</small>
+                            <% end_if %>
                         </div>
                     </div>
-                    <% else %>
-                    <div class="carousel-item">
-                        <img src="$PortfolioPic.URL" style="width:90vw; height:auto;" alt="$Title">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>$Title</h5>
-                            <p>$Description</p>
-                        </div>
-                    </div>
-                <% end_if %>
+
                 <% end_loop %>
             </div>
             <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-slide="prev">
