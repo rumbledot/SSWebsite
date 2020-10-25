@@ -6,7 +6,7 @@
 
 body {
   font-family:'Courier New', Courier, monospace;
-  background-image: url('/images/background.png');
+  background-image: url('../images/background.png');
 }
 
 /* Colors */
@@ -30,7 +30,7 @@ body {
   #nav-Home {
     position: relative;
       /* display: inline-block; */
-      background-image: url('/images/Home.png') !important;
+      background-image: url('../images/Home.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
@@ -39,7 +39,7 @@ body {
   #nav-Home:hover {
     position: relative;
       /* display: inline-block; */
-      background-image: url('/images/Home-clicked.png') !important;
+      background-image: url('../images/Home-clicked.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
@@ -48,7 +48,7 @@ body {
   #nav-Board {
     position: relative;
       /* display: inline-block; */
-      background-image: url('/images/Board.png') !important;
+      background-image: url('../images/Board.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
@@ -58,7 +58,7 @@ body {
   #nav-Board:hover {
     position: relative;
       /* display: inline-block; */
-      background-image: url('/images/Board-clicked.png') !important;
+      background-image: url('../images/Board-clicked.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
@@ -68,7 +68,7 @@ body {
   #nav-Arcade {
     position: relative;
       /* display: inline-block; */
-      background-image: url('/images/Arcade.png') !important;
+      background-image: url('../images/Arcade.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
@@ -78,7 +78,7 @@ body {
   #nav-Arcade:hover {
     position: relative;
       /* display: inline-block; */
-      background-image: url('/images/Arcade-clicked.png') !important;
+      background-image: url('../images/Arcade-clicked.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
@@ -88,7 +88,7 @@ body {
   #nav-Gallery {
     position: relative;
       /* display: inline-block; */
-      background-image: url('/images/Gallery.png') !important;
+      background-image: url('../images/Gallery.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
@@ -98,7 +98,7 @@ body {
   #nav-Gallery:hover {
     position: relative;
       /* display: inline-block; */
-      background-image: url('/images/Gallery-clicked.png') !important;
+      background-image: url('../images/Gallery-clicked.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
@@ -108,7 +108,7 @@ body {
   #nav-About {
     position: relative;
       /* display: inline-block; */
-      background-image: url('/images/About.png') !important;
+      background-image: url('../images/About.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
@@ -118,7 +118,7 @@ body {
   #nav-About:hover {
     position: relative;
       /* display: inline-block; */
-      background-image: url('/images/About-clicked.png') !important;
+      background-image: url('../images/About-clicked.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
@@ -157,7 +157,7 @@ body {
 
 /* Stiky's colours */
 .peg-white {
-    background-image: url('/images/border.png') !important;
+    background-image: url('../images/border.png') !important;
     background-size: 250px 200px;
     height: 200px;
     width: 250px;
@@ -165,7 +165,7 @@ body {
 }
 
 .peg-yellow {
-  background-image: url('/images/border-yellow.png') !important;
+  background-image: url('../images/border-yellow.png') !important;
   background-size: 250px 200px;
   height: 200px;
   width: 250px;
@@ -173,7 +173,7 @@ body {
 }
 
 .peg-blue {
-    background-image: url('/images/border-blue.png') !important;
+    background-image: url('../images/border-blue.png') !important;
     background-size: 250px 200px;
     height: 200px;
     width: 250px;
@@ -181,7 +181,7 @@ body {
 }
 
 .peg-green {
-    background-image: url('/images/border-green.png') !important;
+    background-image: url('../images/border-green.png') !important;
     background-size: 250px 200px;
     height: 200px;
     width: 250px;
@@ -189,7 +189,7 @@ body {
 }
 
 .peg-pink {
-    background-image: url('/images/border-pink.png') !important;
+    background-image: url('../images/border-pink.png') !important;
     background-size: 250px 200px;
     height: 200px;
     width: 250px;
