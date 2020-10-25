@@ -218,8 +218,11 @@ body {
 }
 
 .image-logo {
-  width: 100%;
-  height: auto;
+  background-repeat: no-repeat;
+  background-image: url('../images/logo.png') !important;
+  height:33vh;
+  margin: 10px;
+
 }
 
 .small-image {
