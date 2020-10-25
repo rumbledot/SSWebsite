@@ -28,111 +28,101 @@ body {
 /* Nav menu icon only visible on > 768px*/
 @media (min-width: 768px) {
   #nav-Home {
-    position: absolute;
+    position: relative;
       /* display: inline-block; */
       background-image: url('/images/Home.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
-      margin-top:10px;
   }
 
   #nav-Home:hover {
-    position: absolute;
+    position: relative;
       /* display: inline-block; */
       background-image: url('/images/Home-clicked.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
-      margin-top:10px;
   }
 
   #nav-Board {
-    position: absolute;
+    position: relative;
       /* display: inline-block; */
       background-image: url('/images/Board.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
-      margin-top:10px;
-      margin-left:64px;
+      margin-left:4px;
   }
 
   #nav-Board:hover {
-    position: absolute;
+    position: relative;
       /* display: inline-block; */
       background-image: url('/images/Board-clicked.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
-      margin-top:10px;
-      margin-left:64px;
+      margin-left:4px;
   }
 
   #nav-Arcade {
-    position: absolute;
+    position: relative;
       /* display: inline-block; */
       background-image: url('/images/Arcade.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
-      margin-top:10px;
-      margin-left:128px;
+      margin-left:4px;
   }
 
   #nav-Arcade:hover {
-    position: absolute;
+    position: relative;
       /* display: inline-block; */
       background-image: url('/images/Arcade-clicked.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
-      margin-top:10px;
-      margin-left:128px;
+      margin-left:4px;
   }
 
   #nav-Gallery {
-    position: absolute;
+    position: relative;
       /* display: inline-block; */
       background-image: url('/images/Gallery.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
-      margin-top:10px;
-      margin-left:192px;
+      margin-left:4px;
   }
 
   #nav-Gallery:hover {
-    position: absolute;
+    position: relative;
       /* display: inline-block; */
       background-image: url('/images/Gallery-clicked.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
-      margin-top:10px;
-      margin-left:192px;
+      margin-left:4px;
   }
 
   #nav-About {
-    position: absolute;
+    position: relative;
       /* display: inline-block; */
       background-image: url('/images/About.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
-      margin-top:10px;
-      margin-left:256px;
+      margin-left:4px;
   }
 
   #nav-About:hover {
-    position: absolute;
+    position: relative;
       /* display: inline-block; */
       background-image: url('/images/About-clicked.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
-      margin-top:10px;
-      margin-left:256px;
+      margin-left:4px;
   }
   .nav-text {
     visibility: hidden;
@@ -351,5 +341,42 @@ body {
   bottom: 0;
   width: 100%;
   white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+  line-height: 60px;
+  margin-bottom:0;
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+
+#footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    height: 190px;
+    margin-top: -151px;
+    font-size: 16;
+    text-rendering: auto;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

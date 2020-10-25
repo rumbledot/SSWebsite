@@ -196,6 +196,18 @@ class ExamplePageController extends PageController
 }
 ```
 
+- Base URL
+
+in .env add
+
+`SS_BASE_URL="https://yourdomain.com"`
+
+in site _config yml file
+
+```
+SilverStripe\Control\Director:
+   alternate_base_url: '`SS_BASE_URL`'
+   ```
 
 Base project folder for a SilverStripe ([http://silverstripe.org](http://silverstripe.org)) installation. Required modules are installed via [http://github.com/silverstripe/recipe-cms](http://github.com/silverstripe/recipe-cms). For information on how to change the dependencies in a recipe, please have a look at [https://github.com/silverstripe/recipe-plugin](https://github.com/silverstripe/recipe-plugin). In addition, installer includes [theme/simple](https://github.com/silverstripe-themes/silverstripe-simple) as a default theme.
 

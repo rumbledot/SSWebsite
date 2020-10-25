@@ -11,12 +11,12 @@
                             <div class="center">
                                 <div class="row justify-content-md-center">
                                     <div class="col-md-auto">
-                                        <a href="$Link" style="font-weight:bolder;">$Title</a>
+                                        <a href="$Link" style="font-weight:bolder;word-wrap:break-word;">$Title</a>
                                     </div>
                                 </div>
                                 <div class="row justify-content-md-center">
                                     <div class="col-md-auto">
-                                        <p>$Description</p>
+                                        <p style="word-wrap:break-word;">$Description</p>
                                     </div>
                                 </div>
                             </div>

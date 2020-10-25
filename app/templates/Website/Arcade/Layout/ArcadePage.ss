@@ -1,18 +1,22 @@
-<div class="container" style="margin-top:10vh;">
-    <div class="row justify-content-center mb-3">
-        $Content
-    </div>
-    <div class="row">
-        <% loop $Games %>
-        <div class="card bg-dark" style="width: 18rem;">
+<div class="row justify-content-center">
+    $Content
+</div>
+<div class="row justify-content-center">
+    <% loop $Games %>
+    <div class="col-md-4 col-sm-12 m-3">
+        <div class="card bg-dark rounded-0" style="width: 18rem;">
             <img class="card-img-top" src="$Thumbnail.URL" alt="$Title">
             <div class="card-body bg-dark">
-                <h5 class="card-title text-light pixelFont">$Title</h5>
-                <p class="card-text text-light pixelFont">$Description</p>
-                <a href="$Location" target="_blank" class="btn btn-warning">Play!</a>
+                <h5 class="card-title text-light pixelFont" style="word-wrap:break-word;">$Title</h5>
+                <p class="card-text text-light pixelFont" style="word-wrap:break-word;">$Description</p>
+                <% if $Location %>
+                    <a href="$Location" target="_blank" class="btn btn-warning">
+                        <p class="text-light pixelFont">Play!</p>
+                    </a>
+                <% end_if %>
             </div>
         </div>
-        <% end_loop %>
-
     </div>
+    <% end_loop %>
+
 </div>
