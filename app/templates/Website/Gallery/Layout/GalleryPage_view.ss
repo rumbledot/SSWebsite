@@ -19,12 +19,12 @@
                     </li>
                 <% end_loop %>
             </ol>
-            <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner" style="width:80vw; min-width:20vw;" role="listbox">
                 <% loop $Portfolios %>
 
                     <div class="carousel-item <% if First %>active<% end_if %>">
                         <% if Link && Up.LinkSlides %><a href="$Link"><% end_if %>
-                        <img src="$PortfolioPic.URL" style="width:100vw; height:auto;" alt="$Title">
+                        <img src="$PortfolioPic.URL" style="width:100%; height:auto;" alt="$Title">
                         <% if Link && Up.LinkSlides %></a><% end_if %>
                         <div class="carousel-caption">
                             <% if Title %>

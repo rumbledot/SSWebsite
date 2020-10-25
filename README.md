@@ -165,6 +165,38 @@ DropdownField::create( 'Colour', 'Colour',
     )),
 ```
 
+- template anchor rewriting
+
+for using # links in pages like bootstrap nav tabs/carousels
+
+disable template's engine to automatically rewrite any anchor links that doesn't specify URL
+
+2 ways to do this
+
+in app/_config/youprojectname.yml
+```
+SilverStripe\View\SSViewer:
+  rewrite_hash_links: false
+```
+
+only disable in specific page we disable it thru the page's controller class
+```
+namespace Example\HashLink;
+
+use PageController;
+use SilverStripe\View\SSViewer;
+
+class ExamplePageController extends PageController
+{
+    protected function init()
+    {
+        parent::init();
+        SSViewer::setRewriteHashLinksDefault(false);
+    }
+}
+```
+
+
 Base project folder for a SilverStripe ([http://silverstripe.org](http://silverstripe.org)) installation. Required modules are installed via [http://github.com/silverstripe/recipe-cms](http://github.com/silverstripe/recipe-cms). For information on how to change the dependencies in a recipe, please have a look at [https://github.com/silverstripe/recipe-plugin](https://github.com/silverstripe/recipe-plugin). In addition, installer includes [theme/simple](https://github.com/silverstripe-themes/silverstripe-simple) as a default theme.
 
 ## Installation ##

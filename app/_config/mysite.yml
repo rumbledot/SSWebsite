@@ -3,8 +3,8 @@ Name: myproject
 ---
 SilverStripe\Core\Manifest\ModuleManifest:
   project: app
-
-
+SilverStripe\View\SSViewer:
+  rewrite_hash_links: false
 ---
 Name: my-project-assetsflysystem
 After: '#assetsflysystem'
