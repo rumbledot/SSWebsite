@@ -6,7 +6,7 @@
     <div class="col-auto col-lg-3 col-md-6 col-sm-12">
         <div class="row justify-content-center">
             <div class="col-12 mb-1">
-                <div class="peg-$Colour">
+                <div class="peg-$Colour overflow-auto">
                     <div class="center">
                         <div class="row">
                             <div class="col-1">
