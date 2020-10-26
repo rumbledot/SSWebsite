@@ -19,13 +19,12 @@
                         <% if $Pic %>
                             <div class="row justify-content-md-center">
                                 <div class="col-md-auto" style="word-wrap:break-word;">
-                                <img class="med-image" src="$Pic.URL" alt="$Pic"></img>
+                                <img class="med-image" src="$Pic.URL" alt="$Pic">
                             </div>
                         </div>
                         <% end_if %>
                         <div class="row justify-content-md-center">
                             <div class="col-md-auto" style="word-wrap:break-word;">
-                                <p>$pegPic</p>
                                 <p>$Description</p>
                             </div>
                         </div>
