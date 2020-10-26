@@ -19,7 +19,7 @@
                         <% if $Pic %>
                             <div class="row justify-content-md-center">
                                 <div class="col-md-auto" style="word-wrap:break-word;">
-                                <img class="med-image" src="$Pic.URL" alt="$Pic.URL">
+                                <img class="fill-image" src="$Pic.URL" alt="$Pic.URL">
                             </div>
                         </div>
                         <% end_if %>

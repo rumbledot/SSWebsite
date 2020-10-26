@@ -223,7 +223,11 @@ body {
   width:100%;
   height:33vh;
   margin: 10px;
+}
 
+.fill-image {
+  width:100%;
+  height:auto;
 }
 
 .small-image {
