@@ -1,5 +1,5 @@
-<div class="row">
-	<div class="col-10">
+<div class="row ml-3">
+	<div class="col-sm-9 d-none d-sm-block">
 		&copy; 2020 <a href="/admin/">
 			RumbleDot</a> - Wellington,NZ
 	</div>

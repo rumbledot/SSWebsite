@@ -81,6 +81,7 @@
                         <div class="col-sm-4 col-xs-12 bg-light m-1">
                             <div class="row" style="height:200px;">
                                 <div class="col-12 my-auto">
+                                    <small class="align-top ml-2">work experience</small>
                                     <h5 class="text-dark text-center text-wrap">
                                         Avenir Technology
                                     </h5>
