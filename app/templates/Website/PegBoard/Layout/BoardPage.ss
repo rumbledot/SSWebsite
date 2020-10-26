@@ -10,12 +10,19 @@
                     <div class="center">
                         <div class="row">
                             <div class="col-1">
-                                <a href="$Link" class="float-left"><img class="small-image" src="/images/peg.png" alt=""></a>
+                                <a href="$Link" class="float-left"><img class="small-image" src="../../../../../public/images/peg.png" alt="i"></a>
                             </div>
                             <div class="col-10 text-justify">
                                 <p style="font-weight:bolder;" style="word-wrap:break-word;">$Title</p>
                             </div>
                         </div>
+                        <% if $Pic %>
+                            <div class="row justify-content-md-center">
+                                <div class="col-md-auto" style="word-wrap:break-word;">
+                                <img class="med-image" src="$Pic.URL" alt="$Pic.URL"></img>
+                            </div>
+                        </div>
+                        <% end_if %>
                         <div class="row justify-content-md-center">
                             <div class="col-md-auto" style="word-wrap:break-word;">
                                 <p>$Description</p>
