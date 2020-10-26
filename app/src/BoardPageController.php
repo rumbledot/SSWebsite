@@ -4,11 +4,12 @@ namespace Website\PegBoard;
 
 use PageController;
 use SilverStripe\Control\HTTPRequest;
+use SilverStripe\Assets\Image;
 
 class BoardPageController extends PageController
 {
     private static $allowed_actions = [
-        'show'
+        'show', 'pegPic'
     ];
 
     public function show(HTTPRequest $request)

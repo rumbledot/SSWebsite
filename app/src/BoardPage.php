@@ -5,6 +5,7 @@ namespace Website\PegBoard;
 use Page;
 use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\Forms\GridField\GridFieldConfig_RecordEditor;
+use SilverStripe\Assets\Image;
 
 class BoardPage extends Page
 {

@@ -69,6 +69,12 @@ class Pin extends DataObject
         return "(no image)";
     }
 
+    public function pegPic()
+    {
+        $pegPic = Image::get()->byID(22);
+        return $pegPic;
+    }
+
     public function Link()
     {
         return $this->BoardPage()->Link('show/'.$this->ID);

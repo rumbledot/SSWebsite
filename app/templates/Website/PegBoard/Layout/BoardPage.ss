@@ -10,7 +10,7 @@
                     <div class="center">
                         <div class="row">
                             <div class="col-1">
-                                <a href="$Link" class="float-left"><img class="small-image" src="../../../../../public/images/peg.png" alt="i"></a>
+                                <a href="$Link" class="float-left"><img class="small-image" src="$pegPic.URL" alt="$pegPic.URL"></a>
                             </div>
                             <div class="col-10 text-justify">
                                 <p style="font-weight:bolder;" style="word-wrap:break-word;">$Title</p>
@@ -19,12 +19,13 @@
                         <% if $Pic %>
                             <div class="row justify-content-md-center">
                                 <div class="col-md-auto" style="word-wrap:break-word;">
-                                <img class="med-image" src="$Pic.URL" alt="$Pic.URL"></img>
+                                <img class="med-image" src="$Pic.URL" alt="$Pic"></img>
                             </div>
                         </div>
                         <% end_if %>
                         <div class="row justify-content-md-center">
                             <div class="col-md-auto" style="word-wrap:break-word;">
+                                <p>$pegPic</p>
                                 <p>$Description</p>
                             </div>
                         </div>
