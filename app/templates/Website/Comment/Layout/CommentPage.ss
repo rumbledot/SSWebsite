@@ -5,7 +5,7 @@
     <div class="col-sm-6 col-xs-12">
         $CommentForm
     </div>
-    <div class="col-sm-6 col-xs-12 overflow-auto">
+    <div class="col-sm-6 col-xs-12 overflow-auto" style="overflow-x:hidden;">
         <% if $CheckedComment %>
             <% loop $CheckedComment %>
                 <div class="col-10 m-3 bg-white rounded border">
