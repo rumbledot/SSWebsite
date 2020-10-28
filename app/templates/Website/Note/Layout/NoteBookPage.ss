@@ -4,7 +4,7 @@
 <div class="row justify-content-center m-3">
     <% if $AllBooks %>
         <% loop $AllBooks %>
-            <div class="col-auto col-lg-6 col-md-6 col-sm-12">
+            <div class="col-sm-4 col-xs-12 mb-3">
                 <div class="row justify-content-center">
                     <div class="col-12 mb-1">
                         <div class="note-white">

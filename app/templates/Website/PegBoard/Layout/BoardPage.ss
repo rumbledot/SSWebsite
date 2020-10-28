@@ -3,7 +3,7 @@
 </div>
 <div class="row justify-content-center m-3">
     <% loop $Pins %>
-    <div class="col-md-4 col-sm-12 m-3">
+    <div class="col-sm-4 col-xs-12 mb-3">
         <div class="row justify-content-center">
             <div class="col-12 mb-1">
                 <div class="peg-$Colour overflow-auto">

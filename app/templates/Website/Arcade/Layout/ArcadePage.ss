@@ -1,9 +1,9 @@
 <div class="row justify-content-center">
     $Content
 </div>
-<div class="row justify-content-center">
+<div class="row justify-content-center m-3">
     <% loop $Games %>
-    <div class="col-md-4 col-sm-12 m-3">
+    <div class="col-sm-4 col-xs-12 mb-3">
         <div class="card bg-dark rounded-0" style="width: 18rem;">
             <img class="card-img-top" src="$Thumbnail.URL" alt="$Title">
             <div class="card-body bg-dark">
