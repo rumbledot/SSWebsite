@@ -15,7 +15,7 @@ class Note extends DataObject
     private static $versioned_gridfield_extensions = true;
 
     private static $db = [
-        'NoteLine' => 'Text',
+        'NoteLine' => 'HTMLText',
     ];
 
     private static $has_one = [
