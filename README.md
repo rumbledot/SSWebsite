@@ -212,3 +212,8 @@ SilverStripe\Control\Director:
 - Could be helpful for form styling
 
 `composer require axllent/silverstripe-bootstrap-forms dev-master`
+
+- injecting a css and js in a page
+
+`<% require css("css/gallery.css") %>`
+`<% require javascript("css/gallery.js") %>`
