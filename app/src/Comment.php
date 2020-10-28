@@ -36,7 +36,7 @@ class Comment extends DataObject
         $fields = FieldList::create(
             TextField::create('Name'),
             TextField::create('Comment'),
-            CheckboxField::create(('isChecked')),
+            CheckboxField::create('isChecked'),
         );
 
         return $fields;

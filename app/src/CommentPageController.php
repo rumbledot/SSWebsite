@@ -70,7 +70,7 @@ class CommentPageController extends PageController
         $session->clear("FormData.{$form->getName()}.data");
         $form->sessionMessage('Thanks for your comment! I will check it later..','good');
 
-        return $this->redirect('/comments');
+        return $this->redirectBack();
     }
 
     public function CheckedComment()
