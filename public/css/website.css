@@ -26,6 +26,24 @@ body {
 }
 
 /* Nav menu icon only visible on > 768px*/
+.navbar-burger-icon {
+  position: relative;
+  /* display: inline-block; */
+  background-image: url('../images/Burger.png') !important;
+  background-size: 32px 32px;
+  height: 32px;
+  width: 32px;
+}
+
+.navbar-burger-icon:hover {
+  position: relative;
+  /* display: inline-block; */
+  background-image: url('../images/Burger-clicked.png') !important;
+  background-size: 32px 32px;
+  height: 32px;
+  width: 32px;
+}
+
 @media (min-width: 768px) {
   #nav-Home {
     position: relative;
@@ -99,6 +117,46 @@ body {
     position: relative;
       /* display: inline-block; */
       background-image: url('../images/Gallery-clicked.png') !important;
+      background-size: 64px 64px;
+      height: 64px;
+      width: 64px;
+      margin-left:4px;
+  }
+
+  #nav-Comments {
+    position: relative;
+      /* display: inline-block; */
+      background-image: url('../images/Comments.png') !important;
+      background-size: 64px 64px;
+      height: 64px;
+      width: 64px;
+      margin-left:4px;
+  }
+
+  #nav-Comments:hover {
+    position: relative;
+      /* display: inline-block; */
+      background-image: url('../images/Comments-clicked.png') !important;
+      background-size: 64px 64px;
+      height: 64px;
+      width: 64px;
+      margin-left:4px;
+  }
+
+  #nav-Notebook {
+    position: relative;
+      /* display: inline-block; */
+      background-image: url('../images/Notebook.png') !important;
+      background-size: 64px 64px;
+      height: 64px;
+      width: 64px;
+      margin-left:4px;
+  }
+
+  #nav-Notebook:hover {
+    position: relative;
+      /* display: inline-block; */
+      background-image: url('../images/Notebook-clicked.png') !important;
       background-size: 64px 64px;
       height: 64px;
       width: 64px;
@@ -193,6 +251,15 @@ body {
     background-size: 250px 200px;
     height: 200px;
     width: 250px;
+    padding: 10px;
+}
+
+/* notebook */
+.note-white {
+    background-image: url('../images/note-white.png') !important;
+    background-size: 220px 280px;
+    height: 280px;
+    width: 220px;
     padding: 10px;
 }
 

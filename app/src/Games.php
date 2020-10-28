@@ -17,6 +17,7 @@ class Games extends DataObject
     private static $db = [
         'Title' => 'Varchar(20)',
         'Description' => 'Varchar(100)',
+        'Instruction' => 'Varchar(100)',
         'Location' => 'Text',
     ];
 
@@ -34,6 +35,7 @@ class Games extends DataObject
         $fields = FieldList::create(
             TextField::create('Title'),
             TextField::create('Description'),
+            TextField::create('Instruction'),
             TextField::create('Location'),
             $uploader = UploadField::create('Thumbnail')
         );
@@ -47,6 +49,7 @@ class Games extends DataObject
         'GridThumbnail' => '',
         'Title' => 'Title',
         'Description' => 'Description',
+        'Instruction' => 'Instruction',
         'Location' => 'Location',
     ];
 
