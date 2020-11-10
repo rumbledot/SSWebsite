@@ -3,10 +3,10 @@
 </div>
 <div class="row justify-content-center m-3">
     <% loop $Pins %>
-    <div class="col-sm-4 col-xs-12 mb-3">
+    <div class="col-sm-4 col-xs-12 mb-3 justify-content-center">
         <div class="row justify-content-center">
-            <div class="col-12 mb-1">
-                <div class="peg-$Colour overflow-auto">
+            <div class="col-12 mb-1" style="z-index=10;">
+                <div class="peg-$Colour overflow-auto stikyNotes">
                     <div class="center">
                         <div class="row">
                             <div class="col-1">
@@ -34,5 +34,5 @@
         </div>
     </div>
     <% end_loop %>
-
+    <% require javascript("javascript/boardPage.js") %>
 </div>

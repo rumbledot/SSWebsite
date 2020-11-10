@@ -24,6 +24,6 @@
                     </div>
                 </div>
             </div>
-			<% end_loop %>
+		<% end_loop %>
     </div>
 </div>
